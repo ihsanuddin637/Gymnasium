@@ -1,0 +1,993 @@
+@media (min-width:1400px) {
+    .banner_text h2::before {
+        width: 212px;
+    }
+    .banner_text h2::after {
+        width: 161px;
+    }
+    .banner_text p::before {
+        width: 115px;
+    }
+    .banner_text p::after {
+        width: 86px;
+        right: 0;
+    }
+    .logo_slider .next_arrow {
+        right: -16px;
+    }
+    .logo_slider .prev_arrow {
+        left: -16px;
+    }
+}
+
+@media (min-width:1200px) and (max-width: 1399.98px) {
+    .logo_slider .prev_arrow {
+        left: -20px;
+    }
+    .logo_slider .next_arrow {
+        right: -20px;
+    }
+}
+
+@media (min-width:992px) and (max-width: 1199.98px) {
+    /* =========================================
+        Banner part start
+    =========================================== */
+
+    .banner_text h2::before {
+        width: 167px;
+    }
+    .banner_text h2::after {
+        width: 110px;
+
+    }
+
+    /* =========================================
+        Banner part start
+    =========================================== */
+    /* ====================================
+            About part start
+    ======================================*/
+    .about_text p {
+        text-align: justify;
+    }
+
+    /* ====================================
+            About part End
+    ======================================*/
+    /* ====================================
+            Classes part start
+    ======================================*/
+    .class_body ul li {
+        width: 19.58%;
+    }
+
+    /* ====================================
+            Classes part End
+    ======================================*/
+    /* ====================================
+            Clint part start
+    ======================================*/
+    .back_logo {
+        padding-left: 5px;
+    }
+
+    .footer_one ul li {
+        font-size: 12px;
+
+    }
+
+    /* ====================================
+            Clint part End
+    ======================================*/
+    /* ====================================
+            Footer part Stat
+    ======================================*/
+  
+    /* ====================================
+            Footer part End
+    ======================================*/
+    
+}
+
+
+@media (min-width:768px) and (max-width: 991.98px) {
+
+    /* =========================================
+                    Menu Part Start
+    ============================================*/
+    .main_menu .navbar-brand {
+        width: 200px;
+    }
+
+    .main_menu ul li a {
+        font-size: 12px;
+        padding: 0 5px !important;
+    }
+
+    /* =========================================
+                     Menu Part End
+    ============================================*/
+
+    /* ==========================================
+                    Banner part start
+   =============================================*/
+
+    .banner_text h2::before {
+        width: 179px;
+    }
+
+    .banner_text h2::after {
+        width: 124px;
+    }
+
+    .banner_text p::before {
+        width: 79px;
+    }
+
+    .banner_text p::after {
+        width: 50px;
+    }
+
+    /* ==========================================
+                    Banner part End
+   =============================================*/
+
+
+    /* =========================================
+                    About Part Start
+    ============================================*/
+    .about_text p {
+        line-height: 24px;
+        color: #444444;
+        font-family: var(--open);
+        font-size: 14px;
+        text-align: justify;
+        padding-bottom: 30px;
+    }
+
+    /* =========================================
+                     About Part End
+    ============================================*/
+    /* ========================================
+                Membership part start
+    ===========================================*/
+    .member_text h2 {
+        font-size: 14px;
+        padding: 15px 0;
+    }
+
+    .member_text ul li {
+        font-size: 13px;
+        padding: 5px 0;
+    }
+
+    .member_text .mem_img h3 {
+        font-size: 40px;
+    }
+
+    .member_text .mem_img h3 span {
+        font-size: 25px;
+    }
+
+    /* ========================================
+                Membership part End
+    ===========================================*/
+    /* ========================================
+                Counter part start
+    ==========================================*/
+
+    .counter_text h4 {
+        font-size: 35px;
+    }
+
+    .counter_text h5 {
+        font-size: 15px;
+    }
+
+    /* ========================================
+                Counter part End
+    ==========================================*/
+
+    /* ========================================
+                Classes part start
+    ===========================================*/
+    .class_body ul li {
+        width: 19.42%;
+        padding: 20px 0;
+
+    }
+
+    .class_body ul li h4 {
+        font-size: 13px;
+    }
+
+    .class_body ul li p {
+        font-size: 12px;
+    }
+
+    .class_body ul li i {
+        font-size: 40px;
+    }
+
+    /* ========================================
+                Classes part End
+    ===========================================*/
+
+    /* =======================================
+            Clint part start
+    =========================================*/
+
+    .back_logo {
+        margin: 0 15px;
+        padding-top: 23px;
+        padding-bottom: 18px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    /* =======================================
+            Clint part End
+    =========================================*/
+}
+
+@media (min-width:576px) and (max-width: 767.98px) {
+    /* ================================================
+                    Menu Part Start
+    ==================================================*/
+
+    .main_menu {
+        top: 0;
+        background: #e23e38;
+
+    }
+
+    .main_menu .navbar-brand {
+        width: 170px;
+        height: 50px;
+        line-height: 40px;
+    }
+
+    .main_menu button i {
+        color: #fff;
+    }
+
+    .main_menu .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+    }
+
+    .main_menu #navbarSupportedContent {
+        border-top: 1px solid #fff;
+        background: #e23e38;
+        /* margin-left: 200px; */
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .main_menu ul li a::after {
+        display: none;
+    }
+
+    .main_menu ul li a {
+        line-height: 35px;
+
+    }
+
+    /* ================================================
+                    Menu Part End
+    ==================================================*/
+
+    /* ================================================
+                    Banner Part Start
+    ==================================================*/
+    .banner_item {
+        padding: 140px 0 80px;
+    }
+
+    .banner_text h1::after,
+    .banner_text h1::before {
+        display: none;
+    }
+
+    .banner_text h2::after,
+    .banner_text h2::before {
+        display: none;
+    }
+
+    .banner_text p::after,
+    .banner_text p::before {
+        display: none;
+    }
+
+    .banner_text h1 {
+        font-size: 50px;
+    }
+
+    .banner_text h2 {
+        font-size: 25px;
+    }
+
+    .banner_text p {
+        padding: 0 0;
+
+    }
+
+    .banner_text p {
+        font-size: 14px;
+
+    }
+
+    .banner_text a {
+        font-size: 13px;
+        padding: 3px 14px;
+        margin: 0 4px;
+        margin-top: 22px;
+    }
+
+    #banner .slick-dots li.slick-active button {
+        width: 14px;
+        height: 14px;
+
+    }
+
+    #banner .slick-dots li button {
+        width: 11px;
+        height: 11px;
+    }
+
+    #banner .slick-dots li button {
+        margin: 0 3px;
+    }
+
+    /* ==============================================
+                Banner Part End
+    =================================================*/
+
+    /* ================================================
+                    About Part Start
+    ==================================================*/
+
+    #about {
+        padding: 57px 0;
+    }
+
+    .about_text p {
+        text-align: justify;
+        padding: 0 0 30px 0;
+    }
+
+    /* ================================================
+                    About Part End
+    ==================================================*/
+    /* ================================================
+                    Gallery Part Start
+    ==================================================*/
+    .gal_img:nth-child(2) {
+        margin-bottom: 30px;
+    }
+
+    .gal_bg {
+        padding: 30px 0 0;
+    }
+
+    /* ================================================
+                    Gallery Part End
+    ==================================================*/
+    /* ================================================
+                     Team Part Start
+    ==================================================*/
+    #team {
+        padding-top: 54px;
+
+    }
+
+    .team_main {
+        transform: translateY(-42px);
+    }
+
+    .team_main .team_img .overly {
+        transform: scale(1);
+    }
+
+    .team_main .team_text {
+        border: 1PX solid #dddddd;
+    }
+
+    .team_main .team_text p {
+        transform: scale(1);
+    }
+
+    /* ================================================
+                      Team Part End
+    ==================================================*/
+    /* ===============================================
+                    Testimonial Part Start
+    ==================================================*/
+    #testimonial .test_slider .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        margin: 0 3px;
+    }
+
+    #testimonial .test_slider .slick-dots li.slick-active button {
+        width: 14px;
+        height: 14px;
+
+    }
+
+    #testimonial {
+        padding-bottom: 48px;
+    }
+
+    .team_main {
+        padding-top: 44px;
+    }
+
+    /* ===============================================
+                    Testimonial Part End
+    ==================================================*/
+    /* ===============================================
+                    Membership Part Start
+    ==================================================*/
+    .member_text h2 {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    .member_text .mem_img h3 span {
+        font-size: 20px;
+    }
+
+    .member_text .mem_img h3 {
+        font-size: 32px;
+    }
+
+    .member_text .mem_img {
+        padding: 20px 0;
+    }
+
+    .member_text ul {
+        padding: 10px 0 10px;
+    }
+
+    .member_text ul li {
+        font-size: 12px;
+        padding: 5px 0;
+    }
+
+    /* ===============================================
+                    Membership Part End
+    ==================================================*/
+    /* ===============================================
+                    Counter Part Start
+    ==================================================*/
+
+    .counter_text h4 {
+        font-size: 24px;
+    }
+
+    .counter_text h5 {
+        font-size: 14px;
+    }
+
+    /* ===============================================
+                    Counter Part End
+    ==================================================*/
+    /* =================================================
+                    Classes Part Start
+    ====================================================*/
+    .class_menu li {
+        width: 33.3333%;
+        border-bottom: 1px solid #e23e38;
+        border-left: 1px solid #e23e38;
+        border-right: 1px solid #e23e38;
+        border-top: 1px solid #e23e38;
+        height: 35px;
+    }
+
+    .class_menu li button {
+        height: 35px;
+    }
+
+    .class_menu {
+        height: auto;
+    }
+
+    .class_body ul li {
+        width: 49.51%;
+    }
+
+    .class_body ul li:nth-child(even) {
+        margin-right: 0;
+    }
+
+    .class_body ul li:nth-child(5) {
+        margin-right: 5px;
+    }
+
+    .class_body ul li i {
+        font-size: 35px;
+    }
+
+    .class_body ul li {
+        padding: 25px 0;
+
+    }
+
+    .class_body ul li h4 {
+        font-size: 16px;
+    }
+
+    .class_body ul li p {
+        font-size: 14px;
+    }
+
+    #classes {
+        padding: 55px 0 55px;
+    }
+
+
+
+    /* =================================================
+                    Classes Part End
+    ====================================================*/
+    /* =================================================
+                    Clint Part Start
+    ====================================================*/
+    .back_logo a img {
+        height: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .back_logo {
+        margin: -13px 7px;
+
+    }
+
+    .logo_slider {
+        margin-top: -37px;
+    }
+
+    /* =================================================
+                    Clint Part End
+    ====================================================*/
+    /* =================================================
+                    Footer Part Start
+    ====================================================*/
+
+    .footer_logo {
+        padding: 15px 0;
+
+    }
+
+    .footer_logo::after {
+        bottom: 2px;
+
+    }
+
+    .footer_one h5 {
+        padding: 15px 0 15px;
+    }
+
+    .footer_two h5 {
+        padding: 15px 0 15px;
+    }
+
+    .footer_three h5 {
+        padding: 0px 0 15px;
+    }
+
+    .footer_four h5 {
+        padding: 15px 0 15px;
+    }
+
+    .footer_four h4 {
+        padding: 15px 0 18px;
+    }
+
+    .social_part a {
+        height: 27px;
+        width: 28px;
+        line-height: 27px;
+        margin-bottom: 0px;
+    }
+
+    .footer_last {
+        padding: 15px 0;
+    }
+
+    .footer_four ul li a {
+        font-size: 12px;
+    }
+
+    .social_part a i {
+        font-size: 18px;
+        color: #ffffff;
+    }
+
+    .footer_three ul li {
+        width: 24.0%;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    /* =================================================
+                    Footer Part End
+    ====================================================*/
+}
+
+@media (max-width: 575.98px) {
+    /* ================================================
+                    Menu Part Start
+    ==================================================*/
+
+    .main_menu {
+        top: 0;
+        background: #e23e38;
+
+    }
+
+    .main_menu .navbar-brand {
+        width: 170px;
+        height: 50px;
+        line-height: 40px;
+    }
+
+    .main_menu button i {
+        color: #fff;
+    }
+
+    .main_menu .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+    }
+
+    .main_menu #navbarSupportedContent {
+        border-top: 1px solid #fff;
+        background: #e23e38;
+        /* margin-left: 200px; */
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .main_menu ul li a::after {
+        display: none;
+    }
+
+    .main_menu ul li a {
+        line-height: 35px;
+
+    }
+
+    /* ================================================
+                    Menu Part End
+    ==================================================*/
+
+    /* ================================================
+                    Banner Part Start
+    ==================================================*/
+    .banner_item {
+        padding: 100px 0 65px;
+    }
+
+    .banner_text h1::after,
+    .banner_text h1::before {
+        display: none;
+    }
+
+    .banner_text h2::after,
+    .banner_text h2::before {
+        display: none;
+    }
+
+    .banner_text p::after,
+    .banner_text p::before {
+        display: none;
+    }
+
+    .banner_text h1 {
+        font-size: 44px;
+        /* margin-bottom: 10px; */
+    }
+
+    .banner_text h2 {
+        font-size: 22px;
+        margin-bottom: 0;
+
+    }
+
+    .banner_text p {
+        padding: 0 0;
+
+    }
+
+    .banner_text a {
+        font-size: 13px;
+        padding: 3px 14px;
+        margin: 0 4px;
+        margin-top: 22px;
+    }
+
+    #banner .slick-dots li.slick-active button {
+        width: 14px;
+        height: 14px;
+
+    }
+
+    #banner .slick-dots li button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+
+    }
+
+    #banner .slick-dots li button {
+        margin: 0 3px;
+    }
+
+    /* ==============================================
+                Banner Part End
+    =================================================*/
+
+    /* ================================================
+                    About Part Start
+    ==================================================*/
+
+    #about {
+        padding: 50px 0;
+    }
+
+    .about_text p {
+        text-align: justify;
+        padding: 0 0 30px 0;
+    }
+
+    /* ================================================
+                    About Part End
+    ==================================================*/
+    /* ================================================
+                    Gallery Part Start
+    ==================================================*/
+    .gal_img:nth-child(2) {
+        margin-bottom: 30px;
+    }
+
+    .gal_bg {
+        padding: 30px 0 0;
+    }
+
+    /* ================================================
+                    Gallery Part End
+    ==================================================*/
+    /* ================================================
+                     Team Part Start
+    ==================================================*/
+    #team {
+        padding-top: 45px;
+    }
+
+    .team_main {
+        transform: translateY(-42px);
+    }
+
+    .team_main .team_img .overly {
+        transform: scale(1);
+    }
+
+    .team_main .team_text {
+        border: 1PX solid #dddddd;
+    }
+
+    .team_main .team_text p {
+        transform: scale(1);
+    }
+
+    /* ================================================
+                      Team Part End
+    ==================================================*/
+    /* ===============================================
+                    Testimonial Part Start
+    ==================================================*/
+    #testimonial .test_slider .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        margin: 0 3px;
+    }
+
+    #testimonial .test_slider .slick-dots li.slick-active button {
+        width: 14px;
+        height: 14px;
+
+    }
+
+    #testimonial {
+        padding-bottom: 48px;
+    }
+
+    .team_main {
+        padding-top: 44px;
+    }
+
+    /* ===============================================
+                    Testimonial Part End
+    ==================================================*/
+    /* ===============================================
+                    Membership Part Start
+    ==================================================*/
+    .member_text h2 {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    .member_text .mem_img h3 span {
+        font-size: 20px;
+    }
+
+    .member_text .mem_img h3 {
+        font-size: 32px;
+    }
+
+    .member_text .mem_img {
+        padding: 20px 0;
+    }
+
+    .member_text ul {
+        padding: 10px 0 10px;
+    }
+
+    .member_text ul li {
+        font-size: 12px;
+        padding: 5px 0;
+    }
+
+    /* ===============================================
+                    Membership Part End
+    ==================================================*/
+    /* ===============================================
+                    Counter Part Start
+    ==================================================*/
+
+    .counter_text h4 {
+        font-size: 20px;
+    }
+
+    .counter_text h5 {
+        font-size: 12px;
+    }
+
+    /* ===============================================
+                    Counter Part End
+    ==================================================*/
+    /* =================================================
+                    Classes Part Start
+    ====================================================*/
+    .class_menu li {
+        width: 33.3333%;
+        border-bottom: 1px solid #e23e38;
+        border-left: 1px solid #e23e38;
+        border-right: 1px solid #e23e38;
+        border-top: 1px solid #e23e38;
+        height: 35px;
+    }
+
+    .class_menu li button {
+        height: 35px;
+    }
+
+    .class_menu {
+        height: auto;
+    }
+
+    .class_body ul li {
+        width: 49.16%;
+    }
+
+    .class_body ul li:nth-child(even) {
+        margin-right: 0;
+    }
+
+    .class_body ul li:nth-child(5) {
+        margin-right: 5px;
+    }
+
+    .class_body ul li i {
+        font-size: 28px;
+    }
+
+    .class_body ul li {
+        padding: 25px 0;
+
+    }
+
+    .class_body ul li h4 {
+        font-size: 14px;
+    }
+
+    .class_body ul li p {
+        font-size: 12px;
+
+    }
+
+
+
+
+
+    /* =================================================
+                    Classes Part End
+    ====================================================*/
+    /* =================================================
+                    Clint Part Start
+    ====================================================*/
+
+    .back_logo a img {
+        height: 21px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .back_logo {
+        margin: -13px 7px;
+
+    }
+
+    .logo_slider {
+        margin-top: -37px;
+    }
+
+    /* =================================================
+                    Clint Part End
+    ====================================================*/
+    /* =================================================
+                    Footer Part Start
+    ====================================================*/
+
+    .footer_logo {
+        padding: 15px 0;
+
+    }
+
+    .footer_logo::after {
+        bottom: 2px;
+
+    }
+
+    .footer_one h5 {
+        padding: 15px 0 15px;
+    }
+
+    .footer_two h5 {
+        padding: 15px 0 15px;
+    }
+
+    .footer_three h5 {
+        padding: 0px 0 15px;
+    }
+
+    .footer_four h5 {
+        padding: 15px 0 15px;
+    }
+
+    .footer_four h4 {
+        padding: 15px 0 18px;
+    }
+
+    .social_part a {
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+        margin-bottom: 0px;
+
+    }
+
+    .footer_last {
+        padding: 15px 0;
+    }
+
+    /* =================================================
+                    Footer Part End
+    ====================================================*/
+}
